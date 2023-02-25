@@ -1,0 +1,15 @@
+J:\УЧЕБА ГИК БРЕЙНС\languages\fifthseminar\HOMEWORK5\bin\Debug\net6.0\HOMEWORK5.exe
+J:\УЧЕБА ГИК БРЕЙНС\languages\fifthseminar\HOMEWORK5\bin\Debug\net6.0\HOMEWORK5.deps.json
+J:\УЧЕБА ГИК БРЕЙНС\languages\fifthseminar\HOMEWORK5\bin\Debug\net6.0\HOMEWORK5.runtimeconfig.json
+J:\УЧЕБА ГИК БРЕЙНС\languages\fifthseminar\HOMEWORK5\bin\Debug\net6.0\HOMEWORK5.dll
+J:\УЧЕБА ГИК БРЕЙНС\languages\fifthseminar\HOMEWORK5\bin\Debug\net6.0\HOMEWORK5.pdb
+J:\УЧЕБА ГИК БРЕЙНС\languages\fifthseminar\HOMEWORK5\obj\Debug\net6.0\HOMEWORK5.csproj.AssemblyReference.cache
+J:\УЧЕБА ГИК БРЕЙНС\languages\fifthseminar\HOMEWORK5\obj\Debug\net6.0\HOMEWORK5.GeneratedMSBuildEditorConfig.editorconfig
+J:\УЧЕБА ГИК БРЕЙНС\languages\fifthseminar\HOMEWORK5\obj\Debug\net6.0\HOMEWORK5.AssemblyInfoInputs.cache
+J:\УЧЕБА ГИК БРЕЙНС\languages\fifthseminar\HOMEWORK5\obj\Debug\net6.0\HOMEWORK5.AssemblyInfo.cs
+J:\УЧЕБА ГИК БРЕЙНС\languages\fifthseminar\HOMEWORK5\obj\Debug\net6.0\HOMEWORK5.csproj.CoreCompileInputs.cache
+J:\УЧЕБА ГИК БРЕЙНС\languages\fifthseminar\HOMEWORK5\obj\Debug\net6.0\HOMEWORK5.dll
+J:\УЧЕБА ГИК БРЕЙНС\languages\fifthseminar\HOMEWORK5\obj\Debug\net6.0\refint\HOMEWORK5.dll
+J:\УЧЕБА ГИК БРЕЙНС\languages\fifthseminar\HOMEWORK5\obj\Debug\net6.0\HOMEWORK5.pdb
+J:\УЧЕБА ГИК БРЕЙНС\languages\fifthseminar\HOMEWORK5\obj\Debug\net6.0\HOMEWORK5.genruntimeconfig.cache
+J:\УЧЕБА ГИК БРЕЙНС\languages\fifthseminar\HOMEWORK5\obj\Debug\net6.0\ref\HOMEWORK5.dll
