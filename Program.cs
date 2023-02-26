@@ -17,7 +17,7 @@ int [] GenerateArray (int Length)
   Random ran = new Random();
   for (int i = 0; i < array.Length; i++)
   {
-    array[i] = ran.Next(100, 1000);
+    array[i] = ran.Next(100, 999);
   }
   return array;
 }
@@ -55,16 +55,6 @@ FindEven (arrayran);
 //[3, 7, 23, 12] -> 19
 //[-4, -6, 89, 6] -> 0
 #region
-int [] GenerateArrayRan (int Length)
-{
-  int [] array = new int [Length];
-  Random ran = new Random();
-  for (int i = 0; i < array.Length; i++)
-  {
-    array[i] = ran.Next(1, 100);
-  }
-  return array;
-}
 
 void FindSumOdd(int[] array)
 {
@@ -73,8 +63,6 @@ for (int i = 0; i < array.Length; i++)
   {
     if (i % 2 > 0)  
     res = res + array[i];
-    else
-    res = res + 0;
   }
   System.Console.WriteLine($"Сумма чисел, стоящих на нечетных позициях = {res}");
 }
@@ -82,7 +70,7 @@ for (int i = 0; i < array.Length; i++)
 void Task36() //если мы считаем нечетными позициями нечетные индексы
 {
 int length = Prompt("Длина массива: ");
-int [] arrayran = GenerateArrayRan(length);
+int [] arrayran = GenerateArray(length);
 PrintArray (arrayran);
 FindSumOdd (arrayran);
 }
@@ -94,48 +82,38 @@ FindSumOdd (arrayran);
 // Найдите разницу между максимальным и минимальным элементов массива.
 // [3 7 22 2 78] -> 76
 #region
-double [] GenerateArrayRanFloat (int Length)
-{
-  double [] array = new double [Length];
-  Random ran = new Random();
 
-  for (int i = 0; i < array.Length; i++)
+void DiffMaxMin(int[] array)
+{
+  int i = 0;
+  int max = array[i];
+  int min = array[i];
+  while (i < array.Length)
   {
-    array[i] = Math.Round(ran.NextDouble() * 100,2);
-
+    if (array[i] > max)
+    {
+      max = array[i];
+      i++;
+    }
+    else if (array[i] < min)
+    {
+      min = array[i];
+      i++;
+    }
+    else
+    {
+      i++;
+    }
   }
-  return array;
-}
-
-void PrintArrayFloat (double[] array)
-{
-  string sa = string.Join(" ", array);
-  System.Console.WriteLine($"[{sa}]");
-}
-
-void DiffMaxMin (double[] array)
-{
-int i = 0;
-double max = array[i];
-double min = array[i];
-while (i < array.Length)
-{
-if (array[i] > max)
-max = array[i];
-i++;
-if (array[i] < min)
-min = max = array[i];
-i++;
-}
-double diff = Math.Round((max-min),2);
-System.Console.WriteLine($"Разница между {max} и {min} = {diff}");
+  int diff = max - min;
+  System.Console.WriteLine($"Разница между {max} и {min} = {diff}");
 }
 
 void Task38()
 {
 int length = Prompt("Длина массива: ");
-double [] arrayran = GenerateArrayRanFloat(length);
-PrintArrayFloat (arrayran);
+int [] arrayran = GenerateArray(length);
+PrintArray (arrayran);
 DiffMaxMin (arrayran);
 }
 
